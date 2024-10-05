@@ -1,42 +1,112 @@
 [
     {
-        "name": "Ronaldinho",
+        "name": "Ronaldo Fenômeno",
         "nationality": "Brasileiro",
-        "age": 43,
-        "clubs": ["Grêmio", "Paris Saint-Germain", "Barcelona", "AC Milan", "Fluminense"],
-        "leagues": ["Campeonato Brasileiro", "Ligue 1", "La Liga", "Serie A"],
-        "worldCup": true,
-        "championsLeague": true,
-        "skinColor": "Pardo",
-        "retired": true,
-        "position": "Meio-campo",
-        "shirtNumber": 10
+        "clubs": ["Cruzeiro", "PSV Eindhoven", "Barcelona", "Inter de Milão", "Real Madrid", "Milan"],
+        "leagues": ["Série A", "Eredivisie", "La Liga", "Serie A"],
+        "position": "Atacante",
+        "age": 46,
+        "jerseyNumber": 9,
+        "worldCupWinner": true,
+        "championsLeagueWinner": 1
     },
     {
-        "name": "Cristiano Ronaldo",
-        "nationality": "Português",
-        "age": 39,
-        "clubs": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
-        "leagues": ["Primeira Liga", "Premier League", "La Liga", "Serie A"],
-        "worldCup": true,
-        "championsLeague": true,
-        "skinColor": "Branco",
-        "retired": false,
-        "position": "Atacante",
-        "shirtNumber": 7
+        "name": "Ronaldinho Gaúcho",
+        "nationality": "Brasileiro",
+        "clubs": ["Grêmio", "Paris Saint-Germain", "Barcelona", "Milan", "Flamengo"],
+        "leagues": ["Série A", "Ligue 1", "La Liga", "Serie A"],
+        "position": "Meia",
+        "age": 43,
+        "jerseyNumber": 10,
+        "worldCupWinner": true,
+        "championsLeagueWinner": 1
     },
     {
         "name": "Lionel Messi",
         "nationality": "Argentino",
-        "age": 36,
         "clubs": ["Barcelona", "Paris Saint-Germain"],
         "leagues": ["La Liga", "Ligue 1"],
-        "worldCup": true,
-        "championsLeague": true,
-        "skinColor": "Branco",
-        "retired": false,
         "position": "Atacante",
-        "shirtNumber": 10
+        "age": 36,
+        "jerseyNumber": 10,
+        "worldCupWinner": 1,
+        "championsLeagueWinner": 4
+    },
+    {
+        "name": "Cristiano Ronaldo",
+        "nationality": "Português",
+        "clubs": ["Sporting Lisboa", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
+        "leagues": ["Primeira Liga", "Premier League", "La Liga", "Serie A"],
+        "position": "Atacante",
+        "age": 39,
+        "jerseyNumber": 7,
+        "worldCupWinner": false,
+        "championsLeagueWinner": 5
+    },
+    {
+        "name": "Zinedine Zidane",
+        "nationality": "Francês",
+        "clubs": ["Bordeaux", "Juventus", "Real Madrid"],
+        "leagues": ["Ligue 1", "Serie A", "La Liga"],
+        "position": "Meia",
+        "age": 51,
+        "jerseyNumber": 10,
+        "worldCupWinner": true,
+        "championsLeagueWinner": 1
+    },
+    {
+        "name": "Pelé",
+        "nationality": "Brasileiro",
+        "clubs": ["Santos", "New York Cosmos"],
+        "leagues": ["Série A", "NASL"],
+        "position": "Atacante",
+        "age": 83,
+        "jerseyNumber": 10,
+        "worldCupWinner": true,
+        "championsLeagueWinner": false
+    },
+    {
+        "name": "Diego Maradona",
+        "nationality": "Argentino",
+        "clubs": ["Boca Juniors", "Barcelona", "Napoli", "Sevilla", "Newell's Old Boys"],
+        "leagues": ["Primera División", "La Liga", "Serie A"],
+        "position": "Meia",
+        "age": 60,
+        "jerseyNumber": 10,
+        "worldCupWinner": true,
+        "championsLeagueWinner": false
+    },
+    {
+        "name": "Neymar Jr.",
+        "nationality": "Brasileiro",
+        "clubs": ["Santos", "Barcelona", "Paris Saint-Germain"],
+        "leagues": ["Série A", "La Liga", "Ligue 1"],
+        "position": "Atacante",
+        "age": 32,
+        "jerseyNumber": 11,
+        "worldCupWinner": false,
+        "championsLeagueWinner": 1
+    },
+    {
+        "name": "Andrés Iniesta",
+        "nationality": "Espanhol",
+        "clubs": ["Barcelona", "Vissel Kobe"],
+        "leagues": ["La Liga", "J1 League"],
+        "position": "Meia",
+        "age": 39,
+        "jerseyNumber": 8,
+        "worldCupWinner": true,
+        "championsLeagueWinner": 4
+    },
+    {
+        "name": "Ronald Araújo",
+        "nationality": "Uruguaio",
+        "clubs": ["Barcelona"],
+        "leagues": ["La Liga"],
+        "position": "Defensor",
+        "age": 25,
+        "jerseyNumber": 4,
+        "worldCupWinner": false,
+        "championsLeagueWinner": 0
     }
-
 ]

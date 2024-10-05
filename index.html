@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Quiz de Jogadores de Futebol</h1>
-    <div id="question-list"></div>
-    <div>
-        <input type="text" id="player-name" placeholder="Digite o nome do jogador">
+    <header>
+        <h1>Jogo do Ban!</h1>
+        <p>Tente descobrir qual o jogador fazendo apenas 7 perguntas!</p>
+    </header>
+    <main>
+        <div id="question-section">
+            <h2>Escolha uma pergunta:</h2>
+            <div id="question-list"></div>
+        </div>
+        <div id="result"></div>
+        <input type="text" id="player-name" placeholder="Digite o nome do jogador..." list="players">
+        <datalist id="players"></datalist>
         <button onclick="checkAnswer()">Verificar Resposta</button>
-    </div>
-    <div id="result"></div>
-    <div id="final-result"></div>
+        <div id="final-result"></div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

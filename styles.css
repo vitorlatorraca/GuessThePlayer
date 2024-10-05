@@ -1,86 +1,122 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+/* Estilos globais */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
 }
 
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-#quiz-container {
-    margin: 20px 0;
-}
-
-#question {
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.questions {
+/* Estilo do body */
+body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #008800, #00cc00);
+    color: #fff;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.question-option {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 5px 0;
-    font-size: 16px;
-    transition: background-color 0.3s;
+/* Estilo do título principal */
+header h1 {
+    font-size: 4em; /* Tamanho da fonte grande */
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
-.question-option:hover {
-    background-color: #0056b3;
-}
-
-input[type="text"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+/* Estilo do subtítulo */
+header p {
+    font-size: 1.5em; /* Tamanho da fonte do subtítulo */
     margin-top: 10px;
-    font-size: 16px;
+    font-style: italic; /* Itálico para o subtítulo */
 }
 
+/* Estilo da seção principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Estilo da seção de perguntas */
+#question-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+/* Estilo da lista de perguntas */
+#question-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* Estilo dos botões de perguntas */
+#question-list button {
+    background-color: #fff; /* Fundo branco para os botões */
+    color: #008800; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em; /* Tamanho da fonte dos botões */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover nos botões */
+#question-list button:hover {
+    background-color: #00cc00; /* Muda a cor do fundo ao passar o mouse */
+    color: #fff; /* Muda a cor do texto ao passar o mouse */
+}
+
+/* Estilo da seção de resultados */
 #result {
     margin-top: 20px;
-    font-size: 18px;
-    color: #333;
+    font-size: 1.2em; /* Tamanho da fonte dos resultados */
 }
 
-.autocomplete-suggestions {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    max-height: 200px;
-    overflow-y: auto;
-    position: absolute;
-    z-index: 1000;
-    background: white;
-}
-
-.autocomplete-suggestion {
+/* Estilo do campo de entrada de texto */
+#player-name {
+    margin-top: 20px;
     padding: 10px;
-    cursor: pointer;
+    font-size: 1em; /* Tamanho da fonte */
+    border: none;
+    border-radius: 5px;
+    width: 80%;
 }
 
-.autocomplete-suggestion:hover {
-    background: #f0f0f0;
+/* Estilo do botão de verificar resposta */
+button[type="button"] {
+    margin-top: 10px;
+    background-color: #ffcc00; /* Cor do fundo do botão */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.2em; /* Tamanho da fonte do botão */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+/* Efeito de hover no botão de verificar resposta */
+button[type="button"]:hover {
+    background-color: #ffaa00; /* Muda a cor do fundo ao passar o mouse */
+}
+
+/* Estilo do resultado final */
+#final-result {
+    margin-top: 20px;
+    font-size: 1.5em; /* Tamanho da fonte do resultado final */
+    text-align: center; /* Centraliza o texto */
 }
