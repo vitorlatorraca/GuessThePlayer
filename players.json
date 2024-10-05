@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Ronaldinho",
+        "nationality": "Brasileiro",
+        "age": 43,
+        "clubs": ["Grêmio", "Paris Saint-Germain", "Barcelona", "AC Milan", "Fluminense"],
+        "leagues": ["Campeonato Brasileiro", "Ligue 1", "La Liga", "Serie A"],
+        "worldCup": true,
+        "championsLeague": true,
+        "skinColor": "Pardo",
+        "retired": true,
+        "position": "Meio-campo",
+        "shirtNumber": 10
+    },
+    {
+        "name": "Cristiano Ronaldo",
+        "nationality": "Português",
+        "age": 39,
+        "clubs": ["Sporting CP", "Manchester United", "Real Madrid", "Juventus", "Al Nassr"],
+        "leagues": ["Primeira Liga", "Premier League", "La Liga", "Serie A"],
+        "worldCup": true,
+        "championsLeague": true,
+        "skinColor": "Branco",
+        "retired": false,
+        "position": "Atacante",
+        "shirtNumber": 7
+    },
+    {
+        "name": "Lionel Messi",
+        "nationality": "Argentino",
+        "age": 36,
+        "clubs": ["Barcelona", "Paris Saint-Germain"],
+        "leagues": ["La Liga", "Ligue 1"],
+        "worldCup": true,
+        "championsLeague": true,
+        "skinColor": "Branco",
+        "retired": false,
+        "position": "Atacante",
+        "shirtNumber": 10
+    }
+
+]
